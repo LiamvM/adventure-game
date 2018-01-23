@@ -1,0 +1,268 @@
+body {
+	background-image: url(Background.jpg);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper {
+	width: 80%;
+	margin: 2.5% auto;
+	border: 5px solid #53250c;
+	border-radius: 6px;
+}
+
+#container {
+	display: flex;
+	flex-wrap: wrap;
+	height: 125px;
+	background-color: #21411C;
+}
+
+#text {
+	font-family: arial;
+}	
+
+#image-box {
+	height: 480px;
+	background-image: url(WelcomeScreen.jpg);
+	background-size: cover;
+	display: flex;
+}
+
+#character-box {
+	border-top: 5px solid #53250c;
+	border-bottom: 5px solid #53250c;
+	flex: 1;
+	height: 125px;
+	max-width: 125px;
+	background-color: #471f0a;
+	background-image: url();
+	background-size: cover;
+	z-index: 10;
+}
+
+#image-box h1 {
+	text-align: center;
+	font-family: arial;
+	font-size: 70px;
+}
+
+#chat-box {
+	height: 125px;
+	border-left: 5px solid #53250c;
+	border-top: 5px solid #53250c;
+	border-bottom: 5px solid #53250c;
+	flex: 4;
+	font-size: 18px;
+	background-image: url(ChatBoxBackground.jpg);
+	background-size: cover;
+}
+
+#chat-box p {
+	padding: 8px 10px 10px 10px;
+	font-family: 'Lancelot', cursive;
+	color: white;
+	font-size: 26px;
+	text-shadow: 2px 2px #000;
+}
+
+.start-button {
+	transition: all 0.3s;
+	width: 250px;
+	height: 60px;
+	background-color: brown;
+	box-shadow: 2px 3px #000;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	font-family: 'Lancelot', cursive;
+	font-size: 26px;
+	margin: auto;
+	text-shadow: 2px 2px #000;
+	color: #fff
+}
+
+.start-button:hover {
+	transition: all 0.3s;
+	background-color: #932626;
+  	box-shadow: 0px 1px #000;
+  	transform: translateY(4px);
+
+}
+
+.start-button:active {
+  
+  background-color: #932626;
+  box-shadow: 1px 1px #000;
+  transform: translateY(4px);
+}
+
+#buttons {
+	height: 65px;
+	display: flex;
+	background-color: brown;
+	flex: 4;
+
+}
+
+.click-button {
+	visibility: hidden;
+	display: inline-block;
+	transition: all 0.3s;
+	width: 25%;
+	height: 55px;
+	background-color: brown;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	font-family: 'Lancelot', cursive;
+	font-size: 26px;
+	text-shadow: 2px 2px #000;
+	color: #fff;
+	margin-top: 10px;
+}
+
+.click-button2 {
+	visibility: hidden;
+	display: inline-block;
+	transition: all 0.3s;
+	width: 25%;
+	height: 55px;
+	background-color: brown;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	font-family: 'Lancelot', cursive;
+	font-size: 26px;
+	text-shadow: 2px 2px #000;
+	color: #fff;
+	margin-top: 10px;
+}
+
+.click-button3 {
+	visibility: hidden;
+	display: inline-block;
+	transition: all 0.3s;
+	width: 25%;
+	height: 55px;
+	background-color: brown;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	font-family: 'Lancelot', cursive;
+	font-size: 26px;
+	text-shadow: 2px 2px #000;
+	color: #fff;
+	margin-top: 10px;
+}
+
+.click-button4 {
+	visibility: hidden;
+	display: inline-block;
+	transition: all 0.3s;
+	width: 25%;
+	height: 55px;
+	background-color: brown;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	font-family: 'Lancelot', cursive;
+	font-size: 26px;
+	text-shadow: 2px 2px #000;
+	color: #fff;
+	margin-top: 10px;
+}
+
+.click-button:hover {
+	background-color: #8e2525;
+	transition: all 0.3s;
+}
+
+.click-button2:hover {
+	background-color: #8e2525;
+	transition: all 0.3s;
+}
+
+.click-button3:hover {
+	background-color: #8e2525;
+	transition: all 0.3s;
+}
+
+.click-button4:hover {
+	background-color: #8e2525;
+	transition: all 0.3s;
+}
+
+#game-starting form input[type=text] {
+	width: 250px;
+	height: 30px; 
+	font-size: 26px;
+	border-style: none;
+	border: 2px solid brown;
+	display: inline-block;
+	border-radius: 5%;
+	font-family: 'Lancelot', cursive;
+	font-weight: 700;
+	color: brown;
+	background-color: white;
+	text-align: center;
+	margin-top: 18px;
+	margin-left: 23px;
+
+}
+
+#game-starting {
+	height: 200px;
+	width: 300px;
+	background-color: #471F0A;
+	display: none;
+	margin: auto;
+	border: 5px solid brown;
+	border-radius: 10px;
+}
+
+#game-starting p {
+	text-align: center;
+	color: white;
+	font-family: 'Lancelot', cursive;
+	top: 10%;
+	font-size: 26px;
+	margin-top: 18px;
+}
+
+#temporary-button {
+	display: block;
+	transition: all 0.3s;
+	width: 50%;
+	height: 55px;
+	background-color: brown;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	font-family: 'Lancelot', cursive;
+	font-size: 26px;
+	text-shadow: 2px 2px #000;
+	color: #fff;
+	margin: 20px auto;
+}
+
+#temporary-button:hover {
+	background-color: #8e2525;
+	transition: all 0.3s;
+}
+
+#passports {
+	background-image: url(passports.png);
+	position: absolute;
+	z-index: 1;
+	width: 40px;
+	height: 40px;
+	background-size: cover;
+	top: 340px;
+	left: 290px;
+	cursor: default;
+	visibility: hidden;
+}
